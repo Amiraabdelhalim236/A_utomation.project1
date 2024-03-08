@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.261" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="Register_user can register with his data" name="user can register with valid data" time="0.023">
+<failure/>
+<system-out><![CDATA[
+When go to register button..................................................undefined
+And fills all fields with valid data........................................skipped
+And press on register buttonClick...........................................skipped
+Then cheak user can register to website successfully........................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Register_user can register with his data" name="user can register with invalid data" time="0.008">
+<failure/>
+<system-out><![CDATA[
+When go to register button..................................................undefined
+And fills all fields with invalid data......................................skipped
+And press on register buttonClick...........................................skipped
+Then cheak user cann't register to website..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Register_user can register with his data" name="user can register with empty data" time="0.005">
+<failure/>
+<system-out><![CDATA[
+When go to register button..................................................undefined
+And fills all fields with empty data........................................skipped
+And press on register buttonClick...........................................skipped
+Then cheak user cann't register to website..................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
